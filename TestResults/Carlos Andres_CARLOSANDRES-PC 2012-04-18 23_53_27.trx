@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5d4aae4a-a5ef-4e2f-aa03-217115e208a5" name="Carlos Andres@CARLOSANDRES-PC 2012-04-18 23:53:27" runUser="CarlosAndres-PC\Carlos Andres" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8af25cec-7bf5-42da-a0ad-f71244c61062">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Carlos Andres_CARLOSANDRES-PC 2012-04-18 23_53_27">
+      <DeploymentItem filename="c:\users\carlos andres\documents\visual studio 2010\Projects\SCalculator\SCalculator\bin\Debug\SCalculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T23:53:27.3284232-05:00" queuing="2012-04-18T23:53:28.8704762-05:00" start="2012-04-18T23:53:29.1694933-05:00" finish="2012-04-18T23:54:14.1907858-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CARLOSANDRES-PC" outcome="Error" timestamp="2012-04-18T23:54:14.1867856-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddTest" storage="c:\users\carlos andres\documents\visual studio 2010\projects\scalculator\testcalculatorproject\bin\debug\testcalculatorproject.dll" id="87f9d01c-0d28-1ee6-c8c5-f157ad9e895a">
+      <Execution id="df492b58-41e0-4fc4-af11-46ce57b1ed0b" />
+      <TestMethod codeBase="c:/users/carlos andres/documents/visual studio 2010/Projects/SCalculator/TestCalculatorProject/bin/Debug/TestCalculatorProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCalculatorProject.Form1Test, TestCalculatorProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="87f9d01c-0d28-1ee6-c8c5-f157ad9e895a" executionId="df492b58-41e0-4fc4-af11-46ce57b1ed0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="df492b58-41e0-4fc4-af11-46ce57b1ed0b" testId="87f9d01c-0d28-1ee6-c8c5-f157ad9e895a" testName="AddTest" computerName="CARLOSANDRES-PC" duration="00:00:44.7662779" startTime="2012-04-18T23:53:29.4245079-05:00" endTime="2012-04-18T23:54:14.1907858-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df492b58-41e0-4fc4-af11-46ce57b1ed0b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

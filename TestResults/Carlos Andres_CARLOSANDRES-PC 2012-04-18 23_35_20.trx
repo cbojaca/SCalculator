@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1537bd46-95b7-4691-9268-923a00dbe7a2" name="Carlos Andres@CARLOSANDRES-PC 2012-04-18 23:35:20" runUser="CarlosAndres-PC\Carlos Andres" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8af25cec-7bf5-42da-a0ad-f71244c61062">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Carlos Andres_CARLOSANDRES-PC 2012-04-18 23_35_20">
+      <DeploymentItem filename="c:\users\carlos andres\documents\visual studio 2010\Projects\SCalculator\SCalculator\bin\Debug\SCalculator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T23:35:20.9050218-05:00" queuing="2012-04-18T23:35:23.7009529-05:00" start="2012-04-18T23:35:24.1079762-05:00" finish="2012-04-18T23:36:05.6059522-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CARLOSANDRES-PC" outcome="Error" timestamp="2012-04-18T23:36:05.5969516-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddTest" storage="c:\users\carlos andres\documents\visual studio 2010\projects\scalculator\testcalculatorproject\bin\debug\testcalculatorproject.dll" id="87f9d01c-0d28-1ee6-c8c5-f157ad9e895a">
+      <Execution id="3b631b7b-f5ec-4139-b928-39ca959e4d38" />
+      <TestMethod codeBase="c:/users/carlos andres/documents/visual studio 2010/Projects/SCalculator/TestCalculatorProject/bin/Debug/TestCalculatorProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCalculatorProject.Form1Test, TestCalculatorProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTest" />
+    </UnitTest>
+    <UnitTest name="WithoutDelimeterTest" storage="c:\users\carlos andres\documents\visual studio 2010\projects\scalculator\testcalculatorproject\bin\debug\testcalculatorproject.dll" id="e6aae791-a55b-93dd-dd51-65877212054c">
+      <Execution id="6708bf33-f79e-46ea-a5f5-2e4406e742ad" />
+      <TestMethod codeBase="c:/users/carlos andres/documents/visual studio 2010/Projects/SCalculator/TestCalculatorProject/bin/Debug/TestCalculatorProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCalculatorProject.Form1Test, TestCalculatorProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WithoutDelimeterTest" />
+    </UnitTest>
+    <UnitTest name="DelimeterMethodTest" storage="c:\users\carlos andres\documents\visual studio 2010\projects\scalculator\testcalculatorproject\bin\debug\testcalculatorproject.dll" id="cd84324a-a8e9-44e8-e448-2c3dbd2ddbda">
+      <DeploymentItems>
+        <DeploymentItem filename="SCalculator.exe" />
+      </DeploymentItems>
+      <Execution id="5878e12f-56ef-4417-84ef-ded05e1446bd" />
+      <TestMethod codeBase="c:/users/carlos andres/documents/visual studio 2010/Projects/SCalculator/TestCalculatorProject/bin/Debug/TestCalculatorProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCalculatorProject.Form1Test, TestCalculatorProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DelimeterMethodTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="87f9d01c-0d28-1ee6-c8c5-f157ad9e895a" executionId="3b631b7b-f5ec-4139-b928-39ca959e4d38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd84324a-a8e9-44e8-e448-2c3dbd2ddbda" executionId="5878e12f-56ef-4417-84ef-ded05e1446bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6aae791-a55b-93dd-dd51-65877212054c" executionId="6708bf33-f79e-46ea-a5f5-2e4406e742ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3b631b7b-f5ec-4139-b928-39ca959e4d38" testId="87f9d01c-0d28-1ee6-c8c5-f157ad9e895a" testName="AddTest" computerName="CARLOSANDRES-PC" duration="00:00:41.1689572" startTime="2012-04-18T23:35:24.4369950-05:00" endTime="2012-04-18T23:36:05.6059522-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b631b7b-f5ec-4139-b928-39ca959e4d38">
+    </UnitTestResult>
+    <UnitTestResult executionId="5878e12f-56ef-4417-84ef-ded05e1446bd" testId="cd84324a-a8e9-44e8-e448-2c3dbd2ddbda" testName="DelimeterMethodTest" computerName="CARLOSANDRES-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5878e12f-56ef-4417-84ef-ded05e1446bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="6708bf33-f79e-46ea-a5f5-2e4406e742ad" testId="e6aae791-a55b-93dd-dd51-65877212054c" testName="WithoutDelimeterTest" computerName="CARLOSANDRES-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6708bf33-f79e-46ea-a5f5-2e4406e742ad">
+    </UnitTestResult>
+  </Results>
+</TestRun>
